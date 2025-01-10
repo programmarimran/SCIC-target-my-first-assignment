@@ -18,6 +18,10 @@
     border: none;
     margin-top:24px
 }
+.bin-primary:hover{
+    background-color: darkslategrey;
+    size: 25px;
+}
 /* nav style */
 .nav-parent{
 display: flex;
@@ -33,7 +37,7 @@ font-size: 32px;
 font-weight: 600;
 font-size: 18px;
 color: #006A50;
-border-color: #006A50;
+border: 2px solid #006A50;
 border-radius: 8px;
 padding: 15px 30px;
 }
@@ -134,4 +138,12 @@ padding: 15px 30px;
 }
 .info-btn3{
     background-color: #FFC239;
+}
+
+/* main section part 2 */
+.main-section5-parent2{
+    display: flex;
+}
+.news-button{
+    color: #006A50;
 }
