@@ -1,0 +1,38 @@
+/* // <uniquifier>: Use a unique and descriptive class name */
+
+.work-sans{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 443;
+  font-style: normal;
+}
+*{
+    margin: 0;
+}
+/* shared style */
+.btn-primary{
+
+}
+/* nav style */
+.nav-parent{
+display: flex;
+/* padding: 0 160; */
+justify-content: space-between;
+align-items: center;
+border: none;
+}
+.nav-title{
+margin: 31px 120px;
+font-weight: bold;
+font-size: 32px;
+
+}
+.nav-button{
+margin:24px 120px;
+font-weight: 600;
+font-size: 18px;
+color: #006A50;
+border-color: #006A50;
+border-radius: 8px;
+
+}
