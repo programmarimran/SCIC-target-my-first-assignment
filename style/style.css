@@ -11,7 +11,12 @@
 } */
 /* shared style */
 .btn-primary{
-
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-top:24px
 }
 /* nav style */
 .nav-parent{
@@ -70,4 +75,63 @@ padding: 15px 30px;
 .banner-img{
     width: 473px;
     height: 400px;
+}
+/* header stop */
+/* main style start */
+.main-section2-parent1{
+    text-align: left;
+}
+.main-section2-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-top: 80px;
+}
+.main-section2-description{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-top: 24px;
+}
+.main-section2-parent2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 24px;
+    justify-content:space-between
+}
+.info{
+    padding: 32px;
+    border-radius: 16px;
+}
+.info1{
+    background-color: #F7EBCF;
+}
+.info2{
+    background-color: #C6E4D6;
+}
+.info3{
+    background-color: #F7EBCF;
+}
+.info-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+    margin-top: 24px
+}
+.info-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-top: 12px
+}
+.info-btn1{
+    
+    background-color: #5490F5;
+}
+.info-btn2{
+    background-color:#09A15C;
+}
+.info-btn3{
+    background-color: #FFC239;
 }
