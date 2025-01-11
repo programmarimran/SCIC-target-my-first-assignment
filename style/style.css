@@ -12,6 +12,7 @@
 /* shared style */
 body{
     background-color: #f1f2f3;
+    margin: 0 auto;
 }
 a{
     text-decoration: none;
@@ -268,7 +269,7 @@ input[type="text"]{
     display: block;
    margin: 0 auto;
     padding: 20px 422px;
-   
+   color:#0E0E0E;
     align-items: center;
     font-weight: 400;
     font-size: 20px;
@@ -283,4 +284,68 @@ input[type="text"]{
 .donate-button{
     margin-top: 32px;
     background-color: #006A50;
+    margin-bottom: 80px;
+}
+/* Final foot section */
+.fot-end-section{
+    text-align: center;
+    align-items: center;
+    padding: 80px 265px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.fot-end-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.fot-end-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-top: 16px;
+}
+.subscribe-parent{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 24px;
+   
+}
+input[type="email"]{
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    padding: 18px 403px 18px 40px;
+    border-radius:10px 0 0 10px;
+}
+.subscribe-button{
+    background-color: #006A50;
+    padding: 17px 34px;
+    border: none;
+    border-radius:0 10px 10px 0;
+}
+.end-promise{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-top: 24px;
+}
+/* final section */
+.final-section{
+    text-align: center;
+}
+.final-title{
+    margin-top:80px;
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+.image-icon{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-bottom: 50px;
 }
