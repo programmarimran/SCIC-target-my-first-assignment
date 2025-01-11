@@ -19,7 +19,7 @@ a{
     color:#FFFFFF;
 }
 button:hover{
-    background-color: #ffcc00;
+    /* background-color: #ffcc00; */
 }
 
 .btn-primary{
@@ -31,9 +31,23 @@ button:hover{
     border: none;
     margin-top:24px
 }
-.bin-primary:hover{
-    background-color: darkslategrey;
-    size: 25px;
+.btn-primary:hover{
+    background-color:darkorange;
+}
+.G100:hover{
+    background-color: #5490F5;
+}
+.G200:hover{
+    background-color: goldenrod;
+}
+.G500:hover{
+    background-color:brown;
+}
+.G1000:hover{
+    background-color:green;
+}
+.S1000:hover{
+    background-color:red;
 }
 /* nav style */
 .nav-parent{
