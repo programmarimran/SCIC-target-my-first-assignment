@@ -10,6 +10,9 @@
     margin: 0;
 } */
 /* shared style */
+body{
+    background-color: #f1f2f3;
+}
 a{
     text-decoration: none;
     color:#FFFFFF;
@@ -223,30 +226,61 @@ color: #0E0E0E;
     padding: 56px 0 56px 48px;
 }
 
-/* donate style */
+/* Footer style */
 .donate-section{
+    margin-top: 80px;
+    padding: 0 104px;
     text-align: center;
+    align-items: center;
 }
 .donate-title{
+    margin-top: 0;
     font-weight: bold;
     font-size: 40px;
     color: #0E0E0E;
 }
 .donate-description{
+    margin-top: 20px;
     font-weight: 400;
     font-size: 16px;
     color: #0E0E0E;
 }
+.donate-value-parent{
+    display: flex;
+    margin-top: 32px;
+    padding: 32px 104px;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+}
 .donate-value{
+    padding: 40px 10px;
     font-weight: bold;
     font-size: 40px;
     color: #0E0E0E;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+   border: none;
 }
-.input-placeholder{
-    font-weight: 400px;
+input[type="text"]{
+    display: block;
+   margin: 0 auto;
+    padding: 20px 422px;
+   
+    align-items: center;
+    font-weight: 400;
     font-size: 20px;
-    color:#0E0E0E
+    border: none;
+   
 }
+.select-value{
+    background-color: #C6E4D6;
+}
+
+
 .donate-button{
+    margin-top: 32px;
     background-color: #006A50;
 }
