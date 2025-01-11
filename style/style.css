@@ -10,6 +10,14 @@
     margin: 0;
 } */
 /* shared style */
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+button:hover{
+    background-color: #ffcc00;
+}
+
 .btn-primary{
     padding: 11px 20px;
     color: #FFFFFF;
@@ -33,6 +41,10 @@ border: none;
 .nav-title{
 font-weight: bold;
 font-size: 32px;
+}
+nav a{
+    text-decoration: none;
+    color: #006A50;
 }
 .nav-btn{
 font-weight: 600;
