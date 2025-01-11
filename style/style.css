@@ -222,3 +222,31 @@ color: #0E0E0E;
 .news-title-parent2{
     padding: 56px 0 56px 48px;
 }
+
+/* donate style */
+.donate-section{
+    text-align: center;
+}
+.donate-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.donate-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+}
+.donate-value{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.input-placeholder{
+    font-weight: 400px;
+    font-size: 20px;
+    color:#0E0E0E
+}
+.donate-button{
+    background-color: #006A50;
+}
