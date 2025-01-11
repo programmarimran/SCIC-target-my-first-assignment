@@ -156,6 +156,35 @@ padding: 15px 30px;
 .info-btn3{
     background-color: #FFC239;
 }
+/* Dr.Muhammad Yunus */
+.Yunus{
+    background-color: #FFFFFF;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-origin:content-box;
+
+    
+}
+.bimanbangla-descrioption{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+.Dr-yunus{
+    font-weight: 600;
+    font-size: 20px;
+    color: #0E0E0E;
+    margin-bottom: 4px;
+}
+.yunus-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+}
 
 /* article1 style */
 /* shared article */
@@ -349,3 +378,7 @@ input[type="email"]{
     gap: 45px;
     margin-bottom: 50px;
 }
+footer div> a:hover{
+    background-color: #5490F5;
+}
+   
