@@ -113,6 +113,36 @@ padding: 15px 30px;
 }
 /* header stop */
 /* main style start */
+/* main section1 start */
+.main-section1-title{
+    font-weight: bold;
+    font-size: 40px;
+    color:#0E0E0E;
+    margin: 80px auto 32px;
+}
+.section1-parent{
+    margin: 0 auto 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+.section1-content{
+    padding: 24px;
+    background-color: #FFFFFF;
+}
+.content-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+}
+.content-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    text-align: justify;
+}
+/* main section2 start */
 .main-section2-parent1{
     text-align: left;
 }
