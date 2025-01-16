@@ -230,6 +230,44 @@ padding: 15px 30px;
     color: #0E0E0E;
 }
 
+/* table opinion is start */
+.Opinion{
+    margin: 80px auto;
+    gap: 24px;
+}
+.table-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+table{
+    background-color: #FFFFFF;
+    padding: 32px;
+    /* width: 100%; */
+    border-radius: 16px;
+}
+.table-head{
+    font-weight: 600;
+    font-size: 20px;
+    color: #0E0E0E;
+    background-color:#C6E4D6;
+}
+.td-question{
+    font-weight: 600;
+    font-size: 16px;
+    color: #0E0E0E;
+}
+.agree{
+    font-weight: 500;
+    font-size: 16px;
+    color: #0E0E0E;
+}
+.td-btn{
+    background-color: #C6E4D6;
+    padding: 24px;
+    border-radius: 4px;
+    border: 1px solid #0E0E0E;
+}
 /* article1 style */
 /* shared article */
 .news-image{
